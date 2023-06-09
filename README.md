@@ -1,8 +1,8 @@
 - 👋 Hi, I’m Allen (@allen-ciq)
 - 👀 I’m interested in vim, awk, git, and text manipulation in general
-- 🌱 I’m currently learning Webpack, gulp, and Web Components
-- 💞️ I’m looking to collaborate with the ChartIQ dev team to make awesome and beautiful charts
-- 📫 allen.ng@cosaic.io
+- 🌱 I’m currently working on Metrics server and a new API client for stx
+- 💞️ I’m looking to re-architect the License Server
+- 📫 allen.ng@spglobal.com
 
 I'm a natural born geek.  I wrote my first computer program for an Apple ][e, but not actually having one, I wrote it on paper and debugged it in my head.
 
@@ -12,7 +12,7 @@ In school my focus was primarily on theoretical computer science and mathematics
 
 I've been a professional software engineer since 2013.  I got my start in ad tech working on a hierarchical targeting forecast engine.
 
-I'm a tinkerer and a lover of puzzles.  I like troubleshooting and figuring things out.  I enjoy getting out on my bike and enjoying Colorado, and then coming home and cooking dinner or playing my guitar.  I'm eagerly awaiting my Steam Deck and my Analogue Pocket.
+I'm a tinkerer and a lover of puzzles.  I like troubleshooting and figuring things out.  I enjoy getting out on my bike and enjoying Colorado, and then coming home and cooking dinner or playing my guitar.  I enjoy retro computers and modern computers alike; I love my Analogue Pocket and my Steam Deck, both.  One of these days I'll get around to installing FreeDOS on my ODroid H2+, and RetroArch on my Ouya.
 
 <!---
 allen-ciq/allen-ciq is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
