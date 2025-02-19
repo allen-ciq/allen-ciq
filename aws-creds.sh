@@ -18,8 +18,14 @@ create_key(){
 	fi
 	RESP=$(aws iam create-access-key --user-name chartiq-ses-chartiq.com --profile "$1")
 	NEW_PROFILE=ses-$(date +'%Y%m%d')
-	aws configure --profile "$NEW_PROFILE" set aws_access_key_id "$(jq -r '.AccessKey.AccessKeyId' <<< "$RESP")"
-	aws configure --profile "$NEW_PROFILE" set aws_secret_access_key "$(jq -r '.AccessKey.SecretAccessKey' <<< "$RESP")"
+	KEY_ID=$(jq -r '.AccessKey.AccessKeyId' <<< "$RESP")
+	SEC_KEY=$(jq -r '.AccessKey.SecretAccessKey' <<< "$RESP")
+	aws configure --profile "$NEW_PROFILE" set aws_access_key_id "$KEY_ID"
+	aws configure --profile "$NEW_PROFILE" set aws_secret_access_key "$SEC_KEY"
+	# echo access_key_id "$KEY_ID"
+	# echo secret_access_key "$SEC_KEY"
+	echo export AWS_ACCESS_KEY_ID="$KEY_ID"
+	echo export AWS_SECRET_ACCESS_KEY="$SEC_KEY"
 }
 
 update_key(){
